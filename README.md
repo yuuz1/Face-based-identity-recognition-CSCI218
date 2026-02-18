@@ -23,3 +23,8 @@ This project compares two offline face recognition pipelines on the AT&T (ORL) d
 ## Outputs
 - Results saved to `/content/results`
 - Final download: `results.zip` (plots + CSV summaries)
+
+## Results (CSVs)
+- [runs_all_seeds.csv](runs_all_seeds.csv)
+- [summary_mean_std.csv](summary_mean_std.csv)
+
