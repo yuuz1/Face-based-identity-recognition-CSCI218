@@ -4,7 +4,8 @@ This project compares two offline face recognition pipelines on the AT&T (ORL) d
 
 ## Pipelines
 - **Pipeline A (Baseline):** PCA (Eigenfaces-style) + Linear SVM  
-- **Pipeline B (Winner):** Pretrained CNN embeddings (ResNet18 feature extractor) + Linear SVM  
+- **Pipeline B (Winner):** Pretrained CNN embeddings (ResNet18 feature extractor) + Linear SVM
+- **Pipeline C (New):** MLP (Multi-Layer Perceptron) on flattened pixels (with standardization)
 
 ## Dataset
 - AT&T (ORL) Faces (40 subjects × 10 images each)
